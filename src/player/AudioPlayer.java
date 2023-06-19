@@ -1,6 +1,9 @@
 package player;
 
+import effects.Reverb;
+import effects.Envelope;
 import equalizer.Equalizer;
+
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
@@ -11,18 +14,26 @@ public class AudioPlayer {
     private final File currentMusicFile;
     private AudioInputStream audioStream;
     private SourceDataLine sourceDataLine;
-    public static final int BUFF_SIZE = 32000;
+    public static final int BUFF_SIZE = 35000;
     private final byte[] bufferBytes = new byte[BUFF_SIZE];
     private short[] bufferShort = new short[BUFF_SIZE / 2];
     private boolean pauseStatus;
     private boolean stopStatus;
     private double gain;
     private final Equalizer equalizer;
+    private final Reverb reverb;
+    private boolean isReverb;
+    private final Envelope envelope;
+    private boolean isEnvelope;
 
     public AudioPlayer(File musicFile) {
         this.currentMusicFile = musicFile;
         this.equalizer = new Equalizer();
         this.gain = 1.0;
+        this.isEnvelope = false;
+        this.envelope = new Envelope();
+        this.isReverb = false;
+        this.reverb = new Reverb();
     }
 
 
@@ -42,6 +53,14 @@ public class AudioPlayer {
                 if (this.pauseStatus) this.pause();
 
                 if (this.stopStatus) break;
+
+                if (this.isEnvelope) {
+                    this.envelope(this.bufferShort);
+                }
+
+                if (this.isReverb) {
+                    this.reverb(this.bufferShort);
+                }
 
                 equalizer.setInputSignal(this.bufferShort);
                 this.equalizer.equalization();
@@ -109,6 +128,32 @@ public class AudioPlayer {
 
     public Equalizer getEqualizer() {
         return this.equalizer;
+    }
+
+    private void envelope(short[] inputSamples) {
+        this.envelope.setInputSampleStream(inputSamples);
+        this.envelope.createEffect();
+    }
+
+    public boolean envelopeIsActive() {
+        return this.isEnvelope;
+    }
+
+    public void setEnvelope(boolean b) {
+        this.isEnvelope = b;
+    }
+
+    private void reverb(short[] inputSamples) throws ExecutionException, InterruptedException {
+        reverb.setInputSampleStream(inputSamples);
+        reverb.createEffect();
+    }
+
+    public boolean ReverbIsActive() {
+        return this.isReverb;
+    }
+
+    public void setReverb(boolean b) {
+        this.isReverb = b;
     }
 
 }

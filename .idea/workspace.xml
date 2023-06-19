@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91875d94-3676-4fd0-845d-21a9d0d7aa5b" name="Changes" comment="app5_pf_bih">
+    <list default="true" id="91875d94-3676-4fd0-845d-21a9d0d7aa5b" name="Changes" comment="app6_equalizer_bih">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/FXMLDocument.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/FXMLDocument.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/FXMLDocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/FXMLDocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/equalizer/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equalizer/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/equalizer/FilterInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equalizer/FilterInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/AudioPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687178321154</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="app6_equalizer_kih">
+      <created>1687178479609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178479609</updated>
+    </task>
+    <task id="LOCAL-00010" summary="app6_equalizer_bih">
+      <created>1687178606802</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178606802</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,7 +157,9 @@
     <MESSAGE value="app4_fvch_bih" />
     <MESSAGE value="app5_pf_kih" />
     <MESSAGE value="app5_pf_bih" />
-    <option name="LAST_COMMIT_MESSAGE" value="app5_pf_bih" />
+    <MESSAGE value="app6_equalizer_kih" />
+    <MESSAGE value="app6_equalizer_bih" />
+    <option name="LAST_COMMIT_MESSAGE" value="app6_equalizer_bih" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
