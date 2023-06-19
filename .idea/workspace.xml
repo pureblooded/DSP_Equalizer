@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91875d94-3676-4fd0-845d-21a9d0d7aa5b" name="Changes" comment="app2_buffer" />
+    <list default="true" id="91875d94-3676-4fd0-845d-21a9d0d7aa5b" name="Changes" comment="app4_fvch_kih">
+      <change beforePath="$PROJECT_DIR$/src/GUI/FXMLDocument.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/FXMLDocument.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/FXMLDocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/FXMLDocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equalizer/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equalizer/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equalizer/FilterInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equalizer/FilterInfo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +31,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/markn/IdeaProjects/EqualizerEM/javafx-sdk-19.0.2.1/lib",
+    "last_opened_file_path": "C:/Users/markn/IdeaProjects/EqualizerEM/src",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.20114942"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\markn\IdeaProjects\EqualizerEM\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Eq" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="GUI.EqualizerApp" />
@@ -65,7 +75,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687177734377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="app3_fnch_kih">
+      <created>1687177846963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687177846963</updated>
+    </task>
+    <task id="LOCAL-00004" summary="app3_fnch_bih">
+      <created>1687177908152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687177908152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="app4_fvch_kih">
+      <created>1687178043271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178043271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +113,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="app1_read" />
     <MESSAGE value="app2_buffer" />
-    <option name="LAST_COMMIT_MESSAGE" value="app2_buffer" />
+    <MESSAGE value="app3_fnch_kih" />
+    <MESSAGE value="app3_fnch_bih" />
+    <MESSAGE value="app4_fvch_kih" />
+    <option name="LAST_COMMIT_MESSAGE" value="app4_fvch_kih" />
   </component>
 </project>
