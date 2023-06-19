@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91875d94-3676-4fd0-845d-21a9d0d7aa5b" name="Changes" comment="app4_fvch_kih">
+    <list default="true" id="91875d94-3676-4fd0-845d-21a9d0d7aa5b" name="Changes" comment="app5_pf_bih">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/FXMLDocument.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/FXMLDocument.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/FXMLDocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/FXMLDocumentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/equalizer/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equalizer/Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/equalizer/FilterInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equalizer/FilterInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/AudioPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\markn\IdeaProjects\EqualizerEM\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="equalizer" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +101,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687178043271</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="app4_fvch_bih">
+      <created>1687178114033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178114033</updated>
+    </task>
+    <task id="LOCAL-00007" summary="app5_pf_kih">
+      <created>1687178265510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178265510</updated>
+    </task>
+    <task id="LOCAL-00008" summary="app5_pf_bih">
+      <created>1687178321154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178321154</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +142,20 @@
     <MESSAGE value="app3_fnch_kih" />
     <MESSAGE value="app3_fnch_bih" />
     <MESSAGE value="app4_fvch_kih" />
-    <option name="LAST_COMMIT_MESSAGE" value="app4_fvch_kih" />
+    <MESSAGE value="app4_fvch_bih" />
+    <MESSAGE value="app5_pf_kih" />
+    <MESSAGE value="app5_pf_bih" />
+    <option name="LAST_COMMIT_MESSAGE" value="app5_pf_bih" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/equalizer/FilterInfo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
